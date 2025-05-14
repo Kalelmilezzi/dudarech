@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duda Rech - Design de Sobrancelhas & Micropigmentação</title>
+    <meta name="description" content="Estúdio de design de sobrancelhas e micropigmentação de alto padrão em Duda Rech. Transforme seu olhar com profissionais especializados.">
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS - Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    
+    <!-- Estilo personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#inicio">
+                        <img src="images/logo.png" alt="Logo Duda Rech" class="logo-img">
+                    </a>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio" class="nav-link">Início</a></li>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                        <li><a href="#cursos" class="nav-link">Cursos</a></li>
+                        <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                
+                <a href="#contato" class="btn btn-primary header-btn">Agende sua avaliação</a>
+                
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title">A beleza do seu olhar começa aqui</h1>
+                <p class="hero-subtitle">Especialistas em design de sobrancelhas e micropigmentação de alto padrão</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Agendar Atendimento</a>
+                    <a href="#cursos" class="btn btn-outline">Conheça nossos cursos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Sobre a Duda Rech</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="sobre-content">
+                <div class="sobre-img" data-aos="fade-right" data-aos-delay="100">
+                    <img src="images/duda-rech.jpg" alt="Duda Rech - Fundadora">
+                </div>
+                
+                <div class="sobre-text" data-aos="fade-left" data-aos-delay="200">
+                    <p>Com mais de 10 anos de experiência no mercado de beleza, Duda Rech transformou sua paixão por design de sobrancelhas em um estúdio de referência. Especializada em técnicas avançadas de micropigmentação e design personalizado, cada atendimento é pensado para valorizar a beleza natural e única de cada cliente.</p>
+                    
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <span class="stat-number">+3000</span>
+                            <span class="stat-text">Clientes atendidas</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-text">Anos de experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-text">Certificações internacionais</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="servicos section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Conheça os tratamentos exclusivos que oferecemos para valorizar sua beleza</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Serviço 1 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-img">
+                        <img src="images/servico-design.jpg" alt="Design de Sobrancelhas">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Design de Sobrancelhas</h3>
+                        <p class="service-desc">Modelagem personalizada que valoriza seu formato de rosto e realça seu olhar.</p>
+                        <a href="#contato" class="btn btn-sm">Agendar</a>
+                    </div>
+                </div>
+                
+                <!-- Serviço 2 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-img">
+                        <img src="images/servico-micropigmentacao.jpg" alt="Micropigmentação">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Micropigmentação</h3>
+                        <p class="service-desc">Técnica que preenche falhas e define o formato da sobrancelha com aspecto natural.</p>
+                        <a href="#contato" class="btn btn-sm">Agendar</a>
+                    </div>
+                </div>
+                
+                <!-- Serviço 3 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-img">
+                        <img src="images/servico-brow-lamination.jpg" alt="Brow Lamination">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Brow Lamination</h3>
+                        <p class="service-desc">Alisamento e modelagem dos fios da sobrancelha para um visual mais preenchido e alinhado.</p>
+                        <a href="#contato" class="btn btn-sm">Agendar</a>
+                    </div>
+                </div>
+                
+                <!-- Serviço 4 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-img">
+                        <img src="images/servico-remocao.jpg" alt="Remoção de Micropigmentação">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Remoção de Micropigmentação</h3>
+                        <p class="service-desc">Técnica segura para remoção de micropigmentações antigas ou malfeitas.</p>
+                        <a href="#contato" class="btn btn-sm">Agendar</a>
+                    </div>
+                </div>
+                
+                <!-- Serviço 5 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-img">
+                        <img src="images/servico-consultoria.jpg" alt="Consultoria de Imagem Facial">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Consultoria de Imagem Facial</h3>
+                        <p class="service-desc">Análise facial completa para identificar o design de sobrancelha ideal para seu rosto.</p>
+                        <a href="#contato" class="btn btn-sm">Agendar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Section -->
+    <section id="cursos" class="cursos section-padding bg-rose">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Cursos</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Aprenda com quem é referência no mercado</p>
+            </div>
+            
+            <div class="cursos-content" data-aos="fade-up" data-aos-delay="100">
+                <div class="cursos-text">
+                    <p>Compartilhamos nosso conhecimento e experiência através de cursos presenciais e online, com certificação reconhecida no mercado. Aprenda técnicas exclusivas de micropigmentação, design de sobrancelhas e atendimento de alto padrão.</p>
+                    
+                    <ul class="cursos-lista">
+                        <li><i class="fas fa-check"></i> Curso de Design de Sobrancelhas</li>
+                        <li><i class="fas fa-check"></i> Curso de Micropigmentação Básico e Avançado</li>
+                        <li><i class="fas fa-check"></i> Workshop de Brow Lamination</li>
+                        <li><i class="fas fa-check"></i> Consultoria para Profissionais da Área</li>
+                    </ul>
+                    
+                    <a href="https://kiwify.com.br" target="_blank" class="btn btn-primary btn-lg">Ver cursos disponíveis</a>
+                </div>
+                
+                <div class="cursos-img">
+                    <img src="images/cursos.jpg" alt="Cursos Duda Rech">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Section -->
+    <section id="depoimentos" class="depoimentos section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Depoimentos</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">O que nossas clientes dizem sobre nós</p>
+            </div>
+            
+            <div class="swiper testimonials-slider" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+                    <!-- Depoimento 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="images/cliente-1.jpg" alt="Cliente 1">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"Finalmente encontrei quem entendesse o que eu queria! A Duda captou perfeitamente meu estilo e criou sobrancelhas que harmonizam com meu rosto. Sensacional!"</p>
+                                <h4 class="client-name">Mariana Silva</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Depoimento 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="images/cliente-2.jpg" alt="Cliente 2">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"A micropigmentação mudou minha vida! Economizo tanto tempo nas manhãs e me sinto linda mesmo sem maquiagem. A técnica é impecável e super natural."</p>
+                                <h4 class="client-name">Juliana Mendes</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Depoimento 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="images/cliente-3.jpg" alt="Cliente 3">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"Fiz o curso de design e já estou atendendo minhas primeiras clientes. O material didático é completo e o suporte pós-curso excelente. Super recomendo!"</p>
+                                <h4 class="client-name">Patrícia Oliveira</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section id="galeria" class="galeria section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Galeria</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Conheça alguns dos nossos trabalhos</p>
+            </div>
+            
+            <div class="gallery-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="gallery-item">
+                    <a href="images/trabalho-1.jpg" class="gallery-link" data-lightbox="gallery">
+                        <img src="images/trabalho-1.jpg" alt="Trabalho 1">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/trabalho-2.jpg" class="gallery-link" data-lightbox="gallery">
+                        <img src="images/trabalho-2.jpg" alt="Trabalho 2">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/trabalho-3.jpg" class="gallery-link" data-lightbox="gallery">
+                        <img src="images/trabalho-3.jpg" alt="Trabalho 3">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/trabalho-4.jpg" class="gallery-link" data-lightbox="gallery">
+                        <img src="images/trabalho-4.jpg" alt="Trabalho 4">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/trabalho-5.jpg" class="gallery-link" data-lightbox="gallery">
+                        <img src="images/trabalho-5.jpg" alt="Trabalho 5">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="images/trabalho-6.jpg" class="gallery-link" data-lightbox="gallery">
+                        <img src="images/trabalho-6.jpg" alt="Trabalho 6">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Contato</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Entre em contato e agende seu horário</p>
+            </div>
+            
+            <div class="contato-content">
+                <div class="contato-info" data-aos="fade-right" data-aos-delay="100">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Rua das Flores, 123 - Centro</p>
+                            <p>Florianópolis, SC</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p><a href="tel:+5548999999999">(48) 99999-9999</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:contato@dudarech.com.br">contato@dudarech.com.br</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 9h às 19h</p>
+                            <p>Sábados: 9h às 13h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5548999999999" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contato-form" data-aos="fade-left" data-aos-delay="200">
+                    <form id="contactForm" action="submit.php" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="nome" name="nome" required>
+                            <label for="nome">Seu nome</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="whatsapp" name="whatsapp" required>
+                            <label for="whatsapp">Seu WhatsApp</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            <label for="mensagem">Sua mensagem</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-form btn-block">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Logo Duda Rech">
+                    </div>
+                    <p class="footer-about">Transformando olhares com design de sobrancelhas e micropigmentação de excelência. Valorizamos sua beleza única, promovendo autoconfiança e resultados naturais.</p>
+                    <div class="footer-social">
+                        <div class="social-links">
+                            <a href="https://instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/5548999999999" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Informações de Contato</h4>
+                    <ul class="footer-contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123 - Centro, Florianópolis, SC</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+5548999999999">(48) 99999-9999</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:contato@dudarech.com.br">contato@dudarech.com.br</a></li>
+                        <li><i class="fas fa-clock"></i> Segunda a Sexta: 9h às 19h | Sábados: 9h às 13h</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Duda Rech. Todos os direitos reservados. | Desenvolvido com <i class="fas fa-heart" style="color: var(--color-rose);"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão de WhatsApp fixo -->
+    <a href="https://wa.me/5548999999999" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
